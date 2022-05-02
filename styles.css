@@ -1,0 +1,227 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body { min-height: 100vh; }
+
+p, h1, h3 {
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-sub-main {
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: #eeeeee;
+}
+
+.btn-margin {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.icono-login {
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 20px;
+}
+
+.mensaje-generico {
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+p, h1 {
+    text-align: justify;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Estilos del Header */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #37bbed;
+    width: 100%;
+    height: 70px;
+}
+.imagen {
+    height: 85%;
+    margin-top: 3px;
+    margin-left: 10%;
+}
+/* Fin de Estilos del Header */
+
+/*********************animaciones en cabecera*****************/
+
+.header__iz img{
+    transition: all 1s;
+    z-index: 0;
+}
+
+.header__iz:hover img{
+    transform: scale(1.1);
+    z-index: 0;
+    /* transform: translateX(30px); */
+}
+
+.header__dr img{
+    transition: all 1s;
+}
+
+.header__dr:hover img{
+    transform: scale(1.2);
+    transform: translateX(10px);
+    z-index: 0;
+}
+/*********************FIN animaciones en cabecera*****************/
+
+/*********************animaciones Footer*****************/
+.pie__iz img {
+    transition: all 1s;
+}
+
+.pie__iz img:hover{
+    transform: scale(1.2);
+    z-index: 0;
+}
+
+.pie__dr img {
+  transition: all 1s;
+  z-index: 0;
+}
+
+.pie__dr img:hover{
+  transform: scale(1.1);
+  z-index: 0;
+}
+/*********************animaciones Footer*****************/
+
+/*Footer*/
+.footer-help{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0em;
+    bottom: 0px;
+}
+
+.spacer {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.img-argentina-unida {
+    height: 40px;
+}
+
+.logos-footer {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-tw {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+/*Fin del Footer*/
+
+@media (max-width: 900px){
+    .icono-login {
+        height: 100%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 676px){
+    .img-argentina-unida {
+        height: 30px;
+    }
+    
+    .logo-tw {
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .logos-footer {
+        width: 20px;
+        height: 20px;
+    }
+    .mensaje-generico {
+        color: white;
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .icono-login {
+        height: 100%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 560px){
+    .img-argentina-unida {
+        height: 30px;
+        margin-left: -60%;
+    }
+    .logo-tw {
+        margin-left: 80px;
+        width: 20px;
+        height: 20px;
+    }
+    .logos-footer {
+        width: 20px;
+    }
+      
+}
+
+
+@media (max-width: 450px){
+    .img-argentina-unida {
+        height: 30px;
+        margin-left: -60%;
+    }
+    .logo-tw {
+        margin-left: 80px;
+        width: 20px;
+        height: 20px;
+    }
+    .logos-footer {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .icono-login {
+        height: 100%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+
+    .container-header-items{
+        margin-left: 35%;
+    }
+
+    .mensaje-generico {
+        color: white;
+        font-size: 23px;
+        margin-top: 10px;
+        margin-left: -1px;
+    }
+}
