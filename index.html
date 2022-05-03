@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pantalla Fer</title>
+    <title>Pantalla Bootstrap</title>
     <!--Header Responsive Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./poncho-master/src/css/poncho.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
     <!--poncho estado-->
-    <script src="./poncho-master//dist//js/poncho.js"></script>
-    <script src="./poncho-master//dist//js//poncho.min.js"></script>
+    <!-- <script src="./poncho-master//dist//js/poncho.js"></script>
+    <script src="./poncho-master//dist//js//poncho.min.js"></script> -->
     <!--js boots-->
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <!--Mis estilos-->
     <link rel="stylesheet" href="./styles.css">
@@ -32,7 +33,7 @@
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbar">
-                          <ul class="navbar-nav">
+                          <ul class="navbar-nav ms-auto" >
                               <li class="nav-item"> 
                                   <a class="nav-link"  href="">Formularios</a>
                                 </li>
@@ -47,8 +48,57 @@
                     </nav>
                 </div>
             </header>
-            <main></main>
-            <footer></footer>
+            <main class="row">
+                <div class="col-sm-6">
+                    <a class="iz" href="nuevosusuarios.html" target="_self">
+                        <div class="iz__contine">
+                            <div class="contenedor-card-item">
+                                <div class="contenedor-card-item-wrapper">
+                                  <img src="./img/nuevosusuarios.png" alt="">
+                                  <div class="contenedor-info">
+                                        <div class="info">
+                                          <p class="titulo">Nuevos Usuarios</p>
+                                          <span class="categoria">Para usuarios que ingresan por primera vez</span>
+                                        </div>
+                                        <div class="fondo"></div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a class="dr" href="http://www.ssn.gob.ar" target="_self">
+                        <div class="dr__contine" >
+                            <div class="contenedor-card-item">
+                                <div class="contenedor-card-item-wrapper">
+                                  <img src="./img/fondocard.png" alt="">
+                                  <div class="contenedor-info">
+                                        <div class="info">
+                                          <p class="titulo">Ingreso a Usuarios</p>
+                                          <span class="categoria">Para usuarios ya Registrados</span>
+                                        </div>
+                                        <div class="fondo"></div>
+                                  </div>
+                                </div>
+                          </div>
+                        </div>
+                    </a>
+                </div>              
+            </main>
+            <footer class="pie">
+                <!-- pie gral estilo .pie__iz -->
+                <div class="pie__iz">
+                    <a href="https://twitter.com/ssn_ar?lang=es" class="images__pie" alt="SSN twitter"> <img title="twitter SSN" class="images__pie" src="img/twitter-pajaro.png"></a>
+                    <a href="https://www.instagram.com/ssn_arg/" class="images__pie" alt="SSN instagram"> <img title="instragram SSN" class="images__pie" src="img/instagram.png"></a>
+                    <a href="https://www.youtube.com/channel/UCZFKGDOvcGv8JebcpUSmFFA" class="images__pie" alt="youtube SSN"> <img title="youtube SSN" class="images__pie" src="img/youtube.png"></a>
+                    <a href="https://www.linkedin.com/company/superintendencia-de-seguros-de-la-naci%C3%B3n/" class="images__pie" alt="SSN linkedin"> <img title="linkedin SSN" class="images__pie" src="img/linkedin-in.png" ></a>
+                </div>
+                  <!-- pie gral estilo .pie__dr -->
+                <div class="pie__dr">
+                    <a href="http://www.argentina.gob.ar"><img title="Argentina.gob.ar" src="img/argentinagob-2.png" width="200"></a>
+                </div>
+            </footer>
         </div>
     </body>
 </html>
