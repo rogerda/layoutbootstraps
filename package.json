@@ -1,0 +1,19 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./css/estilo.scss ./css/estilo.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerda/layoutbootstraps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerda/layoutbootstraps/issues"
+  },
+  "homepage": "https://github.com/rogerda/layoutbootstraps#readme",
+  "description": ""
+}
