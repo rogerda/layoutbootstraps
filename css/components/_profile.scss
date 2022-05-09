@@ -1,0 +1,22 @@
+.profile {
+    text-align: center;
+    /*sass uso*/
+    &__avatar{
+        border-radius: 100%;
+        width: 220px;
+        height: auto; 
+    }
+    &__name {
+        @extend .titleTemplate;
+    }
+    &__information {
+       @include cardContainer(space-around, 'yes');
+    }
+    .species,
+    .status,
+    .genrer {
+        p {
+            text-transform: uppercase;
+        }
+    }
+}

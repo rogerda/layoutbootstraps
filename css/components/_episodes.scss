@@ -1,0 +1,32 @@
+.episodes {
+    background-color: #333;
+    border-radius: 20px;
+    padding: 40px;
+    color: #a8a8a8;
+
+    &__title {
+        font-weight: bold;
+
+        span {
+            color:#fff;
+
+        }
+        &__season {
+            h3 {
+                color: #8841da;
+                margin: 40px 0;
+            }
+            h4 {
+                border-bottom: 4px solid #8841da;
+                padding: 20px 0;
+
+                span {
+                    color: #fff;
+                }
+                &:last-child {
+                    border-bottom: 0;
+                }
+            }
+        }
+    }
+}

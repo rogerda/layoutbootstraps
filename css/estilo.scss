@@ -451,9 +451,17 @@ left: 0;
     gap: 10px;
     justify-content: center;
 }
-.col-sm-6{
+.reduccion{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
+
+/*import  sass */
+@import './components/variables';
+@import './components/global';
+@import './components/profile';
+@import './components/bio';
+@import './components/gallery';
+@import './components/episodes';
